@@ -31,7 +31,11 @@ git clone https://github.com/mondo-mob/wrangler-sim-expo-setup.git
 
 ### Android simulators setup
 
-... coming soon (brew install Android studio, SDK/sim setup etc).
+1. Install Android Studio
+```shell
+brew install --cask android-studio
+```
+2. ... SDK setup, emulator installation etc ....
 
 ### Starting iOS simulator and Expo Go
 
