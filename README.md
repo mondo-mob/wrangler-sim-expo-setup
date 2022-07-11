@@ -6,23 +6,24 @@ You'll need to create an Expo account at https://expo.dev and be granted access 
 
 1. Install Xcode via the AppStore
 2. Once completed, open Xcode. It will likely install more components.
-3. Install Homebrew 
+3. Open a Terminal
+4. Install Homebrew 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-4. Install `n`
+5. Install `n`
 ```shell
 brew install n
 ```
-5. Install node 16
+6. Install node 16
 ```shell
 n 16
 ```
-6. Install git
+7. Install git
 ```shell
 brew install git
 ```
-7. Clone this repository somewhere approriate, if you're not sure where just use your home directory
+8. Clone this repository somewhere approriate, if you're not sure where just use your home directory
 ```shell
 cd ~
 git clone https://github.com/mondo-mob/wrangler-sim-expo-setup.git
@@ -34,7 +35,7 @@ git clone https://github.com/mondo-mob/wrangler-sim-expo-setup.git
 
 ### Starting iOS simulator and Expo Go
 
-1. CD into the repository that was cloned in step 7 above. For example:
+1. CD into the repository that was cloned in the last step above. For example:
 ```shell
 cd ~/wrangler-sim-expo-setup
 ```
