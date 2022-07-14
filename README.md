@@ -11,6 +11,7 @@ You'll need to create an Expo account at https://expo.dev and be granted access 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+This command will prompt for a password. Enter the password of your current mac user. 
 5. Install `n`
 ```shell
 brew install n
