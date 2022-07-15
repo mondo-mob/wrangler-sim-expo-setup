@@ -6,7 +6,7 @@ You'll need to create an Expo account at https://expo.dev and be granted access 
 
 1. Install Xcode via the AppStore
 2. Once completed, open Xcode. It will likely install more components.
-3. Open a Terminal
+3. Open a Terminal, you will be pasting a series of commands (below) into this terminal. You should wait for each command to complete before continuing. You'll know it's complete once you see the cursor again.
 4. Install Homebrew 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -15,14 +15,11 @@ This command will prompt for a password. Enter the password of your current mac 
 After installation Brew will likely ask you to run a couple of commands to add Brew to your path.
 5. Install `n`
 ```shell
-sudo mkdir -p /usr/local/n
-sudo chown -R $(whoami) /usr/local/n
-sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
 brew install n
 ```
 6. Install node 16
 ```shell
-n 16
+sudo n 16
 ```
 7. Install git
 ```shell
