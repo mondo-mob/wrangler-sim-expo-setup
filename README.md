@@ -30,6 +30,9 @@ brew install git
 cd ~
 git clone https://github.com/mondo-mob/wrangler-sim-expo-setup.git
 ```
+9. Open Xcode and click on the Xcode->Preferences menu
+10. Click the `Locations` tab
+11. If no `Command Line Tools` open is selected, click on the select dropdown to select one (there should be a single item in there to select)
 
 ### Starting iOS simulator and Expo Go
 
@@ -46,6 +49,7 @@ npm i
 npm start
 ```
 4. Press `i` to open an iOS simulator and install Expo Go on it
+5. Expo Go should be installed onto the simulator now. Open the simulator and paste your Expo project link into Safari, which should open your app.
 
 You can switch devices using the `Simulators` menu.
 
