@@ -1,3 +1,13 @@
+
+
+# DO NOT USE - REDUNDANT
+Expo Go .apk and .ipa files can simply me downloaded from https://expo.dev/tools
+
+
+---
+
+
+
 These instructions are for wranglers who wish to set up their MacBooks for running iOS and/or Android simulators with Expo Go installed on them.
 
 You'll need to create an Expo account at https://expo.dev and be granted access to any particular Expo/RN projects you want to run. 
