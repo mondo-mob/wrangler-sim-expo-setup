@@ -1,13 +1,4 @@
 
-
-# DO NOT USE - REDUNDANT
-Expo Go .apk and .ipa files can simply me downloaded from https://expo.dev/tools
-
-
----
-
-
-
 These instructions are for wranglers who wish to set up their MacBooks for running iOS and/or Android simulators with Expo Go installed on them.
 
 You'll need to create an Expo account at https://expo.dev and be granted access to any particular Expo/RN projects you want to run. 
@@ -70,6 +61,7 @@ You can switch devices using the `Simulators` menu.
 brew install --cask android-studio
 ```
 2. ... SDK setup, emulator installation etc ....
+3. Download Expo Go apk file from https://expo.dev/tools and drag onto running simulator to install.
 
 ### Starting Android simulator and Expo Go
 
