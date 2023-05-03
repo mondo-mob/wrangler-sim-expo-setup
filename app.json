@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "mondo-ventures",
     "name": "wrangler-sim-expo-setup",
     "slug": "wrangler-sim-expo-setup",
     "version": "1.0.0",
